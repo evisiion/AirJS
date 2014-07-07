@@ -168,6 +168,10 @@ And finally, add an engine object to your app:
     });
 
     App.init();
+    
+Either when you declare the engine object, or through appending it later, you can create your own prototypes with AirJS. By using the AirJS `prototype constructor`, or "prototype prototype", via `new prototype`, you maintain an engine of object oriented components, with their own methods, interfaces, and dependencies, making for very testable, decoupled, clean-looking code. 
+
+    [syntax for example in progress]
 
 **Server:**
 
