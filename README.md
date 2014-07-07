@@ -29,7 +29,7 @@ Create an instance of AirJS:
 
     var App = new AirJS();
     
-Create a documet object for your app, to act as your front end control center. All html tags and attributes are supported as objects, and the functionality works precisely as you'd expect it to. Because Air JS prototyping supports the Observer Pattern, any changes made to the objects in the Document will reflect on the page:
+Create a `document object` for your app, to act as your front end control center. All html tags and attributes are supported as objects, and the functionality works precisely as you'd expect it to. Because Air JS prototyping supports the Observer Pattern, any changes made to the objects owned by `document` will reflect on the page:
 
     App.Document = new document({
 
@@ -180,9 +180,9 @@ Air JS is named for its light weight and "wireless" nature.
 	
 Sky JS objects that utilize each-other will dynamically locate and utilize the information "wireless", without the developer having to pass objects and information through parameters.
 
-For example, on the **client side**, you want to create a socketIO connection. To make that connection though, you need to load socket.io, and then make the socket connection the proper IP and socketIO port of your server. The framework has a built-in socketIO bueprint, and a built-in server blueprint, so it's a great example of this wireless behavior in action.
+For example, on the **client side**, you want to create a socketIO connection. To make that connection though, you need to load socket.io, and then make the socket connection the proper IP and socketIO port of your server. The framework has a built-in socketIO blueprint, and a built-in server blueprint, so it's a great example of this wireless behavior in action.
 
-Within an engine object, `App.Engine = new engine({ /* here */ })` lets create a new server object, as a container for server information:
+Within an engine object, `App.Engine = new engine({ /* here */ })` lets create a new `server object`, as a container for server information:
     
 
     Server: new server({
@@ -217,7 +217,7 @@ Within an engine object, `App.Engine = new engine({ /* here */ })` lets create a
 
     }),
 
-Now, all we have to do is add a socketIO object, to get our socket connection running:
+Now, all we have to do is add a `socketIO object`, to get our socket connection running:
 
     "Socket": new socketIO({
 
@@ -229,11 +229,11 @@ Now, all we have to do is add a socketIO object, to get our socket connection ru
 
     })
     
-Since Air JS lists the socketPort prototype as a dependency / related component within the socketIO prototype, AirJS knows to search for it in the engine's scope, and utilize the first one that it finds. If for some reason there were two server objects, you would pass in the object or its parent, and Air JS would search / use that specific object.
+Since Air JS lists the `socketPort prototype` as a dependency / related component within the `socketIO prototype`, AirJS knows to search for it in the `engine`'s scope, and utilize the first one that it finds. If for some reason there were two `server objects`, you would pass in the object or its parent, and Air JS would search / use that specific object.
 
 So how does it work?
 
-When creating a new component in your app, Air JS facilitates the listing of related objects (dependencies) to fill variables / parameters. For example, if you create a new blueprint `Car`, and list `carDoor` as a dependency, when creating a new `Car` object, Air JS will search the appropriate scope for a `carDoor` and utilize it without it having to be passed in as a parameter. 
+When creating a new component in your app, Air JS facilitates the listing of dependencies to fill parameters. For example, if you create a new blueprint `Car`, and list `carDoor` as a dependency, when creating a new `Car` object, Air JS will search the appropriate scope for a `carDoor` and utilize it without it having to be passed in as a parameter. 
 
    Blueprints : {
 
