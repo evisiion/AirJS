@@ -12,9 +12,9 @@ Air JS facilitates a neat, object oriented, decoupled, "wireless" structure in w
 
 The lightweight  framework facilitates maintainable code that is:
 
-    - structured neatly within an Object Oriented design
-    - decoupled, through Inversion of Control with Dependency Injection
-    - wireless via Relational Awareness and The Observer pattern
+- structured neatly within an Object Oriented design
+- decoupled, through Inversion of Control with Dependency Injection
+- wireless via Relational Awareness and The Observer pattern
 
 The framework features some powerful built-in components, allowing the developer to focus on his own components rather than reinvent the wheel for each new app.
 
@@ -30,15 +30,15 @@ The Built-In Components of Air JS
 
 Client-Side:
 
-    [in progress]
+[in progress]
 
 Node:
 
-    [in progress]
+[in progress]
 
 Default:
 
-    [in progress]
+[in progress]
 
 User Component Facilitation in Air JS
 --------------------------------------------------
