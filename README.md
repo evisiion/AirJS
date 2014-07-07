@@ -25,7 +25,7 @@ The Wireless Nature of Air JS
 
 [in progress]
 
-The Built-In Components of Air JS
+The Built-In Components
 ---------------------------------------------
 
 Client-Side:
@@ -40,7 +40,7 @@ Default:
 
 [in progress]
 
-User Component Facilitation in Air JS
+User Component Facilitation
 --------------------------------------------------
 
 [in progress]
