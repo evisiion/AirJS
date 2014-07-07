@@ -23,20 +23,20 @@ Whether you use the framework to facilitate the production of your functionality
 The Wireless Nature of Air JS
 ----------------------------------------
 
-[in progress]
+
 
 The Built-In Components
 ---------------------------------------------
 
-Client-Side:
+**Client-Side:**
 
 [in progress]
 
-Node:
+**Node:**
 
 [in progress]
 
-Default:
+**Default:**
 
 [in progress]
 
@@ -44,3 +44,18 @@ User Component Facilitation
 --------------------------------------------------
 
 [in progress]
+
+Air JS's Facilitated Patterns
+-----------------------------
+	
+**The Observer Pattern:**
+	
+*The Observer is a design pattern where an object (known as a subject) maintains a list of objects depending on it (observers), automatically notifying them of any changes to state.*
+		
+**Dependency Injection:**
+	
+*Dependency injection is a software design pattern that implements inversion of control and allows a program design to follow the dependency inversion principle.*
+	
+**Single Function Function:**
+	
+*Instead of having a huge mess of callback hell, keep a single function to a single task, and do that task well. Sometimes you can get ahead of yourself and add more functionality within each function, but ask yourself: Can this become an independent function?*
