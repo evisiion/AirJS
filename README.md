@@ -20,7 +20,7 @@ The framework features some powerful built-in components, allowing you to focus 
 
 Whether you use the framework to facilitate the production of your functionality from scratch, call on some of the framework's powerful built-in components, or employ some external libraries, Air JS will ensure that it's all done in a structured, maintainable way.
 
-Syntax and Structure with Air JS
+Syntax and Structure with AirJS
 -------------------------------------------
 
 **Client:**
