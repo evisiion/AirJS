@@ -3,6 +3,8 @@ A Work in Progress
 
 I've taken on this framework as a project to test the limits of my skills in complex areas of the language. This framework may become a powerful tool in the next few months, but for the immediate future, don't even bother with it! It'll take me at least a month to hammer down the syntax in a user friendly way. I certainly didn't start this because there aren't enough JS frameworks out there; I'd just like to take on the challenge of building a good one. 
 
+**As of now: 50%** of the syntax defined below is probably what I'll go with.
+
 Why Use a Framework?
 --------------------------------
 
