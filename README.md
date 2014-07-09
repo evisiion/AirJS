@@ -5,6 +5,8 @@ I've taken on this framework as a project to test the limits of my skills in com
 
 **As of now: 50%** of the syntax defined below is probably what I'll go with.
 
+**Update:** I'm putting this framework on hold to work on the Document functionality shown below as a standalone framework.
+
 Why Use a Framework?
 --------------------------------
 
